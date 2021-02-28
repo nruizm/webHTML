@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	background-image: url(multimedia/FondoEstudios.png );
+	background-size: 100% 107%;
+	background-position: auto;
+}
+
+#container{
+	width: 70%;
+	height: 145px;
+	border: 1px solid black;
+	border-right: 2px solid black;
+	margin-left: 205px;
+	
+
+}
+
+header{
+	height: 146px;
+	width: 100%;
+
+}
+
+nav ul li {
+	float: left;
+	color: white;
+	margin: 10px;
+	line-height: 30px;
+}
+ a:hover{
+ 	text-decoration: underline;
+ 	background: lightblue;
+	color: black;
+}
+
+a{
+	color: white;
+	padding: 16px 5px;
+}
+
+nav{
+	background: grey;
+	height: 50px;
+	border: 1px solid black;
+	padding-left: 130px;
+}
+
+.divider{
+	clear: both;
+}
+
+#content{
+	float: left;
+	width: 64%;
+	min-height: 705px;
+	background: lightyellow;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1.5px solid black;
+}
+.art h3{
+	margin-bottom: 7px;
+}
+.art2{
+	width: 350px;
+	height: 250px;
+	border:1px solid black;
+	margin:auto;
+	margin-top: 27px;
+	position: center;
+	background-size: 100% 100%;
+	animation: fotos;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	
+}
+@keyframes fotos{
+	0%, 18%{
+		background-image: url(multimedia/SanAndres.png);
+		opacity: 1;
+	}
+	
+	19%, 38%{
+		background-image: url(multimedia/IesMarco.png);
+		opacity: 1;
+	}
+	39%, 53%{
+		background-image: url(multimedia/IesMar.png);
+		opacity: 1;
+	}
+	54%, 70%{
+		background-image: url(multimedia/Ana.png);
+		opacity: 1;
+	}
+	71%, 84%{
+		background-image: url(multimedia/Santander.png);
+		opacity: 1;
+	}
+	85%, 100%{
+		background-image: url(multimedia/Popayan.png);
+		opacity: 1;
+	}
+}
+table{
+	background-color: white;
+	border-collapse: collapse;
+	width: 100%;
+	border:1px solid black;
+
+}
+th,td{
+	padding: 8px;
+	border:1px solid black;
+
+}
+thead{
+	background-color: #42B48C;
+	color: white ;
+	border-bottom: 5px solid #2F8E6D;
+}
+tr:nth-child(even){
+	background-color: #AFDFCE ;
+}
+tr:hover td{
+	background-color:#BFC6C4 ;
+	color:white ;
+}
+aside{
+	float: left;
+	background: #87CEFA;
+	width: 30%;
+	min-height: 300px;
+}
+
+#BUSQUEDA{
+	float: left;
+	font-family: 'calibri';
+	background: lightblue;
+	width: 29.7%;
+	min-height: 100px;
+	padding-left: 14px;
+	padding-top: 40px;
+	border-bottom: 0.5px solid black;
+	border-right: 0.5px solid black;
+	border-top: 0.5px solid black;
+
+
+}
+#REDES{
+	float: left;
+	background: white ;
+	width: 31%;
+	min-height: 574px;
+	padding-left:3px;
+	padding-top: 30px;
+	border-right: 0.5px solid black;
+	border-bottom: 1.5px solid black;
+
+}
+
+
+footer{
+	line-height: 15px;
+	text-align: left;
+	background: grey;
+	color: white;
+	padding: 10px;
+	border: 1px solid black;
+	font-family: 'calibri';
+
+}

@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(multimedia/FondoInicio.png);
+
+}
+
+
+#container{
+	width: 84.97%;
+	height: 177px;
+	border: 1px solid black;
+	margin: 0px auto;
+
+}
+
+header{
+	height: 176.6px;
+	width: 100%;
+	
+}
+
+nav ul li{
+	float: left;
+	color: white;
+	margin: 10px;
+	line-height: 30px;
+}
+
+a:hover{
+ 	text-decoration: underline;
+ 	background: lightpink;
+	color: black;
+}
+
+a{
+	color: white;
+	padding: 16px 5px;
+}
+
+nav{
+	background: gray;
+	height: 50px;
+	border: 1px solid black;
+	padding-left: 290px;
+}
+
+.divider{
+	clear: both;
+}
+
+#content{
+
+	float: left;
+	width: 66.8%;
+	min-height: 400px;
+	background: lightyellow;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1.5px solid black;
+
+}
+
+.article1 h2 {
+   text-align: center;
+}
+.article1 p {
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+.article2 img{
+	border: 1px solid lightpink;
+}
+
+#BUSQUEDA{
+	float: left;
+	font-family: 'calibri';
+	background: linear-gradient(60deg,#F8AD88,#FFFFFF);
+	width: 28%;
+	min-height: 100px;
+	padding-left: 14px;
+	padding-top: 40px;
+	border-bottom: 0.5px solid black;
+	border-right: 0.5px solid black;
+	border-top: 0.5px solid black;
+
+
+}
+#REDES{
+	float: left;
+	background: white ;
+	width: 29%;
+	min-height: 553.1px;
+	padding-left:3px;
+	padding-top: 30px;
+	border-right: 0.5px solid black;
+	border-bottom: 1.5px solid black;
+
+}
+
+
+footer{
+	line-height: 15px;
+	text-align: left;
+	background: grey;
+	color: white;
+	padding: 10px;
+	border: 1px solid black;
+	font-family: 'calibri';
+
+}
